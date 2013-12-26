@@ -14,7 +14,9 @@ Manual Installation
 -------------------------------------------------------------
 
    1)Download Package
-   2)Move into target directories   
+   
+   2)Move into target directories
+   
    3)Call the App controller and apple_notification method at your required place.
    
 For Android API Key
