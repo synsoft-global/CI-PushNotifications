@@ -23,7 +23,7 @@ class App extends CI_Controller{
 		$send_result='';
 		$badge=2;
 		//Pass users device token whom you want to send notification. Something like given below... 
-		$device_token = "1ecda14562c4a7310dfe6af17d6e4f4a957b1b708ef64a7b8a28c90902399092";
+		$device_token = "abc123xyz";
 			$send_result = $this->apn->sendMessage($device_token, 'test message', /*badge*/ $badge, /*sound*/ 'default'  );
 		
 		if($send_result){

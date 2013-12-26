@@ -19,6 +19,7 @@
 | Full server path to this file is required.
 |
 */
+
 $config['PermissionFile'] = APPPATH . '../addyourpem.pem';
 
 
